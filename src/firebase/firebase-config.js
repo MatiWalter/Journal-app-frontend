@@ -1,12 +1,9 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
-import { getApi } from '../helpers/firebaseApi';
-
-const API_KEY = await getApi();
 
 const firebaseConfig = {
-  apiKey: API_KEY,
+  apiKey: 'AIzaSyCdt4GAA4TmzQpsHl5ukANiEokJRQMbwZE',
   authDomain: "react-journal-app-f53d5.firebaseapp.com",
   projectId: "react-journal-app-f53d5",
   storageBucket: "react-journal-app-f53d5.appspot.com",
